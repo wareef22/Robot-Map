@@ -1,18 +1,20 @@
 # Robot-Map
 This repository is about creating a map for the robot :
 
-Firt thing i start create the html page
+The first thing to do is create an html page
 ![image](https://user-images.githubusercontent.com/85804755/124510840-5e079c00-dddd-11eb-8ba8-3dfc21c37365.png)
 
-Then I created a database for the robot map with the name (rmap) I added 5 columns (F1,R1,L1,B1,S1).
+Then I created the (rmap) database and put 5 columns(F1,R1,L1,B1,S1).
 
-Then I wrote the php code to connect the interface to the database
+Then I wrote a php code to connect the interface to the database
 
-The way to use the robot map is very easy
+Of the robot How to use  the Map:
+If you press any of the robot buttons in any path you want to go, the data will be sent to the base
+Then the robot starts moving
 
-When you press any button you want the robot to go in its direction, the data is sent to the database, and then the robot starts moving in the direction you pressed
 
-and I created a page to make it easier for the user The page has two buttons, one that takes you to the robot arm control page that I created previously, and the other button takes you to the robot map page :
+I also made a page to be easy for the user:
+It contains two buttons, one that takes you to the arm control page that you created before, and the second takes you to the robot map page
 
 ![image](https://user-images.githubusercontent.com/85804755/124510987-acb53600-dddd-11eb-8d4c-99894103e595.png)
 
